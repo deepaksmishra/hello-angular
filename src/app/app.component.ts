@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-angular';
+//string interpolation
+  title = 'Angular TUTS';
+  //property binding
+  public image ="/assets/images/hils.jpg"
+//two way binding
+
+public value =" "
+
+//event binding
+
+onclick(){
+  alert("Click")
+
+}
+
 }
